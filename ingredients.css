@@ -6,12 +6,6 @@
   border-bottom: solid 10px rgba(0,0,0,.1);
 }
 
-.cheese {
-  height: 15px;
-  width: 65%;
-  background: #f2c120;
-  border-bottom: solid 2px rgba(0,0,0,.1);
-}
 
 .tomato {
   height: 25px;
@@ -29,9 +23,16 @@
   vertical-align: top;
 }
 
+.cheese {
+  height: 15px;
+  width: 65%;
+  background: #f2c120;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
 .patty {
   height: 35px;
-  width: 65%;
+  width: 67%;
   background: #ad370b;
   border-radius: 15px;
   border-bottom: solid 2px rgba(0,0,0,.1);
@@ -40,9 +41,9 @@
 .pickle {
   height: 30px;
   width: 50%;
-  background: #3ac67d;
+  background: rgb(0,255,64);
   border-radius: 0 0 100px 100px;
-  border-bottom: solid 10px #2d9961;
+  border-bottom: solid 10px rgb(4, 207, 4);
 }
 
 .onion {
@@ -64,4 +65,10 @@
   width: 80%;
   background: #656565;
   border-radius: 20px 20px 200px 200px;
+}
+
+.bacon {
+  height: 18px;
+  width:65%;
+  background: rgb(187, 96,0)
 }
